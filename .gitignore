@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+build/
+dist/
+
+# 実験の出力（大きい・個人情報が混ざりやすい）
+logs/
+outputs/
+runs/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+
+# 秘密情報
+.env
+*.pem
+*.key
+credentials*
+
+# OS / エディタ
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
